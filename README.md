@@ -20,7 +20,7 @@ Another interesting finding is KAE can be utilised as a mixer for two different 
 
 ![mix_signal.jpg](assets/mix_signal.jpg)
 
-Then I try to scale up the experiments, using real music sequence instead of toy dimensional signals, the dataset I use can be found [here](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data).
+Then I try to scale up the [experiments](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/Music_Genres.ipynb), using real music sequence instead of toy dimensional signals, the dataset I use can be found [here](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data).
 
 It turns out that, KAN is able to reconstruct real, noisy, comlicate music sequence with few parameters:
 
