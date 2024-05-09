@@ -19,3 +19,13 @@ Firstly, KAE is able to compress a 128-dimension unseen sinusoidal signal into 5
 Another interesting finding is KAE can be utilised as a mixer for two different signals:
 
 ![mix_signal.jpg](assets/mix_signal.jpg)
+
+Then I try to scale up the experiments, using real music sequence instead of toy dimensional signals, the dataset I use can be found [here](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data).
+
+It turns out that, KAN is able to reconstruct real, noisy, comlicate music sequence with few parameters:
+
+![recon_music.jpg](assets/recon_music.jpg)
+
+And still can be utilised as a mixer for different audio signals.
+
+![mix_music.jpg](assets/mix_music.jpg)
