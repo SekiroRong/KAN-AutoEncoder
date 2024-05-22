@@ -13,7 +13,9 @@ My toy example shows that KAN is way better than MLP in representing sinusoidal 
 
 ## List of supoorted KAN-based Autoencoders
 [KAE](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KAE.ipynb)
+
 [KVAE](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KVAE.ipynb)
+
 [KVQ-VAE](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/underconstruction.ipynb)
 
 ## Results & Interesting Findings
