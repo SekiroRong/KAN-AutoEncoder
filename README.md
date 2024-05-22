@@ -11,7 +11,7 @@ Here I create two Juypter notebooks, one for [KAN-based AutoEncoder](https://git
 
 My toy example shows that KAN is way better than MLP in representing sinusoidal signals, which may indicate the great potential of KAN to be the new baseline of AutoEncoder.
 
-## List of supoorted KAN-based Autoencoders
+## List of supported KAN-based Autoencoders
 * [KAE](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KAE.ipynb)
 
 * [KVAE](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KVAE.ipynb)
