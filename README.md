@@ -11,6 +11,11 @@ Here I create two Juypter notebooks, one for [KAN-based AutoEncoder](https://git
 
 My toy example shows that KAN is way better than MLP in representing sinusoidal signals, which may indicate the great potential of KAN to be the new baseline of AutoEncoder.
 
+## List of supoorted KAN-based Autoencoders
+[KAE](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KAE.ipynb)
+[KVAE](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KVAE.ipynb)
+[KVQ-VAE](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/underconstruction.ipynb)
+
 ## Results & Interesting Findings
 Firstly, KAE is able to compress a 128-dimension unseen sinusoidal signal into 5 dimensions and reconstruct the signal back to 128 dimensions approximately lossless:
 
