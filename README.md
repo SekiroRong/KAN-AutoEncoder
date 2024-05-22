@@ -29,3 +29,5 @@ It turns out that, KAN is able to reconstruct real, noisy, comlicate music seque
 And still can be utilised as a mixer for different audio signals.
 
 ![mix_music.jpg](assets/mix_music.jpg)
+
+Here is a [KAN-based VAE model](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KVAE.ipynb)
