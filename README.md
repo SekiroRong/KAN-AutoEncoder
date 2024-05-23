@@ -18,6 +18,8 @@ My toy example shows that KAN is way better than MLP in representing sinusoidal 
 
 * [KVQ-VAE](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KVQ-VAE.ipynb)
 
+* [KAN-RVQ](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KRVQ.ipynb)
+
 ## Results & Interesting Findings
 Firstly, KAE is able to compress a 128-dimension unseen sinusoidal signal into 5 dimensions and reconstruct the signal back to 128 dimensions approximately lossless:
 
@@ -37,4 +39,6 @@ And still can be utilised as a mixer for different audio signals.
 
 ![mix_music.jpg](assets/mix_music.jpg)
 
-Here is a [KAN-based VAE model](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KVAE.ipynb) and a [KAN-based VQ-VAE model](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KVQ-VAE.ipynb)
+Here is a [KAN-based VAE model](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KVAE.ipynb), a [KAN-based VQ-VAE model](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KVQ-VAE.ipynb) and a * [KAN-based RVQ model](https://github.com/SekiroRong/KAN-AutoEncoder/blob/main/KRVQ.ipynb).
+
+RVQ model seems converge way slower than vanilla VQ-VAE. Maybe the average strategy to update the codebook leads to this slow converge?
